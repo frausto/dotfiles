@@ -1,6 +1,6 @@
 [user]
-  name = <FULL_NAME>
-  email = <EMAIL>
+	name = frausto
+	email = nfrausto@fitstar.com
 [color]
   diff = auto
   status = auto
@@ -17,6 +17,7 @@
   undo=checkout -f
 [core]
   excludesfile = ~/.gitignore
+	editor = vim
 [mirror]
   summary = true
 [branch]
@@ -24,5 +25,5 @@
 [help]
   autocorrect = 1
 [push]
-  default = matching
+	default = current
 

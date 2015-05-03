@@ -1,5 +1,6 @@
 alias sl=ls
 alias la='ls -la'
+alias gp='git push -u origin'
 
 alias 'dir'='ls -la | more'
 alias 'port'='/opt/local/bin/port'

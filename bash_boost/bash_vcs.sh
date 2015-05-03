@@ -3,7 +3,7 @@ function parse_git_branch {
 }
 
 function check_git_changes {
-    var=`git status 2> /dev/null | sed -e '/(working directory clean)$/!d' | wc -l`
+    var=`git status 2> /dev/null | sed -e '/working directory clean/!d' | wc -l`
     if [ $var -ne 1 ]; then
         tput setaf 1 # red
     else
@@ -29,7 +29,7 @@ function detect_vcs {
         alias commit="git commit -a"
         alias push="commit ; git push"
         alias revert="git checkout"
-        alias add="git add"
+        alias add="git add -A ."
     }
     
     svn_dir() {

@@ -1,0 +1,11 @@
+alias ll="ls -la"
+alias psg="ps aux | grep "
+alias com="git add -A . && git commit"
+alias add="git add -A . "
+
+alias staging="ssh 10.7.2.225"
+
+alias gclean="git clean -fd"
+alias gclear="git reset HEAD --hard && git clean -fd"
+alias gome="cd /Users/nfrausto/go/src/github.com/fitstar"
+alias hig="history | grep "

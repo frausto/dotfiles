@@ -1,0 +1,11 @@
+export EDITOR="subl -w"
+
+CC=/usr/local/bin/gcc-4.2
+CPP=/usr/local/bin/cpp-4.2
+CXX=/usr/local/bin/g++-4.2
+
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
+
+export GITHUB_OAUTH=0471e4aa23318b580d24bb6ff66271a8223db062
