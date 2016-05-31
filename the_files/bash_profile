@@ -44,7 +44,7 @@ source ~/.bash_boost/java_functions.sh
 echo -e "user specific boost..." >> $LOGFILE
 source ~/.user_specific/loader
 
-echo "--- Boost process Successful and Complete! (details logged to $LOGFILE)"
+# echo "--- Boost process Successful and Complete! (details logged to $LOGFILE)"
 
 ##
 # Your previous /Users/nfrausto/.bash_profile file was backed up as /Users/nfrausto/.bash_profile.macports-saved_2014-09-15_at_12:35:19
