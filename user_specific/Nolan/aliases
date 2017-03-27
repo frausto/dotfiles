@@ -9,3 +9,14 @@ alias gclean="git clean -fd"
 alias gclear="git reset HEAD --hard && git clean -fd"
 alias gome="cd /Users/nfrausto/go/src/github.com/fitstar"
 alias hig="history | grep "
+
+
+dbashf() {
+    docker run -it $1 /bin/bash
+}
+alias dbash=dbashf
+
+dval() {
+    eval "$(docker-machine env $1)"
+}
+alias dval=dval

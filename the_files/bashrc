@@ -26,3 +26,4 @@ if [[ -d $HOST_SETTINGS_DIR ]] ; then
 fi
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export GO15VENDOREXPERIMENT=1
